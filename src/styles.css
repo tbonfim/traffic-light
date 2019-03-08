@@ -1,0 +1,39 @@
+body {
+  background-color: #333;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.traffic-light-wrapper {
+  border: #000 2px solid;
+  width: 25%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 3rem;
+}
+.light {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.active {
+  opacity: 1;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
