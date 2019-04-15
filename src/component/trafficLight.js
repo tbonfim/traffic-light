@@ -13,9 +13,6 @@ class TrafficLight extends Component {
   handleLightCLick(e) {
     const active = this.lights.indexOf(e.currentTarget.dataset.color);
     this.props.dispatch({ type: 'ACTIVATE', active: active} );
-    // this.setState({
-    //   active: active
-    // });
   }
 
   render() {
